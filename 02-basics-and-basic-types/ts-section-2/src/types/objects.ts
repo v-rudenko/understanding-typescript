@@ -6,7 +6,7 @@ const objects = () => {
 
   console.log(person.name);
 
-  console.log(person.nick);
+  // console.log(person.nick);
 };
 
 export default objects;
