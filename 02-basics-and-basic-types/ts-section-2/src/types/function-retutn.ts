@@ -11,6 +11,14 @@ const functionReturn = () => {
 
   printResult(add(5, 12));
 
+  let combinedValues: (a: number, b: number) => number;
+
+  combinedValues = add;
+
+  // combinedValues = printResult;
+
+  console.log(combinedValues(8, 8))
+
 };
 
 export default functionReturn;
