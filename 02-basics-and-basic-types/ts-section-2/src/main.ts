@@ -1,3 +1,4 @@
-import typeAliases from "./types/type-aliases";
+import functionReturn from "./types/function-retutn";
 
-typeAliases();
+
+functionReturn();

@@ -1,7 +1,7 @@
 type Combinable = number | string;
 type ConversionDescriptor = "as-number" | "as-text"
 
-const typeAliases = () => {
+const customTypes = () => {
   function combine(
     input1: Combinable,
     input2: Combinable,
@@ -20,4 +20,4 @@ const typeAliases = () => {
   console.log(combinedAges);
 };
 
-export default typeAliases;
+export default customTypes;
