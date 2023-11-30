@@ -1,8 +1,3 @@
-// import basics from "./basics";
-// import objects from "./types/objects";
-// import enums from "./types/enums";
+import typeAliases from "./types/type-aliases";
 
-import union from "./types/union";
-
-
-union();
+typeAliases();
