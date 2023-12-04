@@ -1,6 +1,5 @@
-console.log('Time to get started!!!');
+const button = document.querySelector('button')!;
 
-let age: number;
-age = 30;
-
-const userName: string = "Viktor"; 
+button.addEventListener("click", () => {
+  alert('Button is clicked')
+})
